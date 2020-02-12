@@ -1,3 +1,7 @@
+# MicTurn Fork
+
+We forked this in order to have more control over how video controls look and move off screen. Previouslyt the controls would animate off screen 100px which causes other video comment boxes and rating stars to be covered up by an invisible layer, and thus the user couldn't tap anything.
+
 # react-native-video-controls
 Controls for the React Native `<Video>` component at [react-native-video](https://github.com/react-native-community/react-native-video). For support with RN 0.45 or lower use version 1.3.1 or lower.
 
