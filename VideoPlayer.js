@@ -317,16 +317,8 @@ export default class VideoPlayer extends Component {
                 { toValue: 0 }
             ),
             Animated.timing(
-                this.animations.topControl.marginTop,
-                { toValue: -100 }
-            ),
-            Animated.timing(
                 this.animations.bottomControl.opacity,
                 { toValue: 0 }
-            ),
-            Animated.timing(
-                this.animations.bottomControl.marginBottom,
-                { toValue: -100 }
             ),
         ]).start();
     }
@@ -343,16 +335,8 @@ export default class VideoPlayer extends Component {
                 { toValue: 1 }
             ),
             Animated.timing(
-                this.animations.topControl.marginTop,
-                { toValue: 0 }
-            ),
-            Animated.timing(
                 this.animations.bottomControl.opacity,
                 { toValue: 1 }
-            ),
-            Animated.timing(
-                this.animations.bottomControl.marginBottom,
-                { toValue: 0 }
             ),
         ]).start();
     }
